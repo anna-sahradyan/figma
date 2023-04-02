@@ -122,7 +122,10 @@
     height: 445px;
 
 }
-
+.home_mobile{
+position: absolute;
+  left: 7px;
+}
 .home_mobile_title {
     position: absolute;
     width: 272px;

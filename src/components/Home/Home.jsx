@@ -62,10 +62,10 @@ const Home = () => {
                 </div>
 
 
-                {/*<section className="home_mobile">*/}
+                <section className="home_mobile">
                     <div className="wrapper_mobile_home">
                         <div className="home_media_main">
-                            <h3 className={"home_mobile_title"}>Зарабатывайте больше <img src="/img/title2.svg" alt="welbex"/></h3>
+                            <h4 className={"home_mobile_title"}>Зарабатывайте больше <img src="/img/mobW.svg" alt="welbex"/></h4>
                             <div className="home_mobile_title1">
                                 <p >Развиваем и контролируем продажи за вас</p>
                             </div>
@@ -74,20 +74,20 @@ const Home = () => {
                             </div>
                             <div className={"home_mobile_title3"}>
                                 <div className={"line_part"}>
-                                    <img className={"line"} src="/img/line.svg" alt="line" /><img  className={"pic"}src="/img/title6.svg" alt="Skype Аудит"/></div>
-                                <div className={"line_part2"}><img className={"line"} src="/img/line.svg" alt="line" /><img className={"pic"} src="/img/30d.svg" alt="30d" />
+                                    <img className={"line"} src="/img/line.svg" alt="line" /><img  className={"pic"}src="/img/mobS.svg" alt="Skype Аудит"/></div>
+                                <div className={"line_part2"}><img className={"line"} src="/img/line.svg" alt="line" /><img className={"pic"} src="/img/mobV.svg" alt="30d" />
                                 </div>
                             </div>
                             <div className={"home_mobile_title4"}>
                                 <div className={"line_part"}>
-                                    <img className={"line"} src="/img/line.svg" alt="line" /><img  className={"pic"} src="/img/title5.svg" alt="Skype Аудит"/></div>
+                                    <img className={"line"} src="/img/line.svg" alt="line" /><img  className={"pic"} src="/img/mobD.svg" alt="Skype Аудит"/></div>
                                 <div className={"line_part2"}><img className={"line"} src="/img/line.svg" alt="line" /><img className={"pic"} src="/img/amo.svg" alt="amo" />
                                 </div>
                             </div>
 
                         </div>
                     </div>
-                {/*</section>*/}
+                </section>
 
             </div>
         </>
