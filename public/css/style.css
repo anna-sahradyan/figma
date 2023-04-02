@@ -403,9 +403,9 @@ html {
 }
 
 body {
-    min-width: 100%;
-    min-height: 100%;
     position: relative;
+    min-width: 100%;
+    min-height: 100vh;
     background-color: #0E1014;
     font-family: Inter;
     font-size: 16px;
@@ -415,9 +415,19 @@ body {
 
 }
 .wrapper{
-   max-width: 1140px;
+    max-width: 1140px;
     min-height: 100vh;
     margin: 0 auto;
     padding: 0 15px;
-    border: 1px solid red;
+
+}
+
+.wrapper_layout{
+    min-width: 1140px;
+    min-height: 100vh;
+    margin: 0 auto;
+    flex: 1;
+    overflow-y: auto;
+    padding: 0 15px;
+    /*border: 1px solid red;*/
 }

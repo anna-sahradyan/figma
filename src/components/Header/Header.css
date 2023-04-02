@@ -1,7 +1,11 @@
+.header {
+
+}
 
 .header_wrapper {
     width: 1140px;
     height: 73px;
+    margin-left: -14px;
 }
 
 .header_logo {
@@ -9,10 +13,12 @@
     padding: 57px;
     left: 60px;
 }
-p{
+
+p {
     padding: 14.86px;
 
 }
+
 .header_ball {
     position: absolute;
     width: 60px;
@@ -99,6 +105,7 @@ p{
     top: 11%;
     /*bottom: 10%;*/
 }
+
 /*mobile header part*/
 
 .header_mobile_nav {
@@ -140,19 +147,23 @@ p{
 .header_mobile_item:last-child {
     margin-right: 0;
 }
+
 /*@media part header*/
 
 @media screen and (max-width: 321px) {
-    .header_mobile_nav{
-        display: block ;
+    .header_mobile_nav {
+        display: block;
     }
-    .header_wrapper{
+
+    .header_wrapper {
         display: none;
     }
-    .header_red_ball{
+
+    .header_red_ball {
         display: none;
     }
-    .header_ball{
+
+    .header_ball {
         display: none;
     }
 }

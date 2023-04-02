@@ -5,10 +5,11 @@ import {Link} from "react-router-dom";
 const Header = () => {
     return (
         <>
+            <header className="header">
             <div className={"header_ball"}>
                 <img src="/img/purple_ball.svg" alt=""/></div>
-            <header className="header">
-                <div className="wrapper">
+
+                <div >
                     <div className={"header_wrapper"}>
                     <div className="header_logo">
                         <Link to={"/"} className={"header_logo_link"}>

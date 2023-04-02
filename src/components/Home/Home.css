@@ -1,0 +1,117 @@
+
+.wrapper_main {
+    position: absolute;
+    width: 1140px;
+    height: 100vh;
+    top: 209px;
+    left:  103px;
+
+}
+.main_block_left{
+    position: absolute;
+    left: -135px;
+}
+.title_main {
+    position: absolute;
+    width: 362px;
+    height: 116px;
+    left: 147px;
+    top: 94px;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 58px;
+    color: #E4E5EA;
+}
+
+.sub_title {
+    position: absolute;
+    width: 275px;
+    height: 44px;
+    left: 148px;
+    top: 280px;
+    font-family: 'Montserrat';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    color: #E4E5EA;
+}
+
+.main_block_right{
+    position: absolute;
+    width: 362px;
+    height: 116px;
+    top: 94px;
+    left: 850px;
+}
+
+.home_title4{
+    margin-left: 6px;
+    margin-top: 40px;
+    position: absolute;
+    left: 15px;
+    top: 40px;
+}
+.home_title_subtitle4{
+    position: absolute;
+    left: 35px;
+    top: 110px;
+
+}
+.home_title5{
+    position: absolute;
+    left: 160px;
+    top: 80px;
+    text-align: right;
+
+}
+.home_title_subtitle5{
+    position: absolute;
+    left: 145px;
+    top: 110px;
+}
+.home_title6{
+    position: absolute;
+    top: 160px;
+}
+.home_title_subtitle6{
+    position: absolute;
+    top: 195px;
+
+}
+.home_title7{
+    position: absolute;
+    top: 160px;
+    left: 195px;
+}
+.home_title_subtitle7{
+    position: absolute;
+    top: 195px;
+    left: 150px;
+}
+.home_small_red_ball{
+    position: absolute;
+    width: 28px;
+    height: 28px;
+    top: 380px;
+    left: 700px;;
+
+}
+.home_button{
+    position: absolute;
+    width: 262px;
+    height: 61px;
+    top: 380px;
+    left: 870px;
+}
+.submit_button {
+    padding: 21px 35px;
+    background: #4077F3;
+    position: absolute;
+    width: 262px;
+    height: 61px;
+    color: #E4E5EA;
+    font-weight: 500;
+    font-size: 16px;
+    border: 0;
+
+}
