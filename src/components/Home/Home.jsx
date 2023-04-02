@@ -5,6 +5,7 @@ const Home = () => {
     return (
         <>
             <div className="wrapper_main">
+                <div className="intro">
                 <div className="main_block_left">
                     <div className="title_main">
                         <h3>Зарабатывайте больше <img src="/img/title2.svg" alt="welbex"/></h3>
@@ -58,6 +59,35 @@ const Home = () => {
                 <div className="home_button">
                     <button className={"submit_button"}>Получить консультацию</button>
                 </div>
+                </div>
+
+
+                {/*<section className="home_mobile">*/}
+                    <div className="wrapper_mobile_home">
+                        <div className="home_media_main">
+                            <h3 className={"home_mobile_title"}>Зарабатывайте больше <img src="/img/title2.svg" alt="welbex"/></h3>
+                            <div className="home_mobile_title1">
+                                <p >Развиваем и контролируем продажи за вас</p>
+                            </div>
+                            <div className={"home_mobile_title2"}>
+                                <img src="/img/subtitle.svg" alt="Вместе с бесплатной консультацией мы дарим"/>
+                            </div>
+                            <div className={"home_mobile_title3"}>
+                                <div className={"line_part"}>
+                                    <img className={"line"} src="/img/line.svg" alt="line" /><img  className={"pic"}src="/img/title6.svg" alt="Skype Аудит"/></div>
+                                <div className={"line_part2"}><img className={"line"} src="/img/line.svg" alt="line" /><img className={"pic"} src="/img/30d.svg" alt="30d" />
+                                </div>
+                            </div>
+                            <div className={"home_mobile_title4"}>
+                                <div className={"line_part"}>
+                                    <img className={"line"} src="/img/line.svg" alt="line" /><img  className={"pic"} src="/img/title5.svg" alt="Skype Аудит"/></div>
+                                <div className={"line_part2"}><img className={"line"} src="/img/line.svg" alt="line" /><img className={"pic"} src="/img/amo.svg" alt="amo" />
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                {/*</section>*/}
 
             </div>
         </>
