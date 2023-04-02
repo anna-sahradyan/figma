@@ -1,0 +1,101 @@
+
+.header_wrapper {
+    width: 1140px;
+    height: 73px;
+}
+
+.header_logo {
+    position: absolute;
+    padding: 57px;
+    left: 60px;
+}
+p{
+    padding: 14.86px;
+
+}
+.header_ball {
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    left: 868px;
+    top: -2px;
+}
+
+.header menu {
+    position: absolute;
+    width: 503px;
+    height: 19px;
+    top: 15px;
+
+}
+
+.header_nav {
+    position: absolute;
+    padding: 61px;
+    left: 260px;
+
+
+}
+
+.header_list {
+    display: flex;
+    flex-wrap: wrap;
+
+
+}
+
+.header_link {
+    font-size: 16px;
+    line-height: 19px;
+    color: #E4E5EA;
+    text-decoration: none;
+}
+
+.header_link:hover, .header_link:focus, .header_link:active {
+    opacity: .75;
+}
+
+.header_item {
+    margin-right: 30px;
+}
+
+.header_item:last-child {
+    margin-right: 0;
+}
+
+/*header call*/
+.header_call {
+    position: absolute;
+    width: 484px;
+    height: 19px;
+    font-size: 16px;
+    line-height: 19px;
+    right: 0;
+    padding: 61px;
+
+}
+
+
+.header_call_list {
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    right: 140px;
+
+}
+
+
+.header_link_call_number {
+    font-size: 16px;
+    line-height: 19px;
+    color: #E4E5EA;
+    text-decoration: none;
+}
+
+.header_red_ball {
+    position: absolute;
+    right: 750px;
+    top: 11%;
+    /*bottom: 10%;*/
+}
