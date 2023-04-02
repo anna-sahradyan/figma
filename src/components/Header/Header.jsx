@@ -59,6 +59,15 @@ const Header = () => {
                     </div>
                 </div>
                 </div>
+                <nav className="header_mobile_nav">
+                    <ul className="header_mobile_list">
+                        <Link className="header_mobile_link"><li className="header_mobile_item">Услуги</li></Link>
+                        <Link className="header_mobile_link"><li className="header_mobile_item">Виджеты</li></Link>
+                        <Link className="header_mobile_link"><li className="header_mobile_item">Интеграции</li></Link>
+                        <Link className="header_mobile_link"><li className="header_mobile_item">Кейсы</li></Link>
+
+                    </ul>
+                </nav>
                 <div className="header_red_ball">
                     <img src="/img/red_ball.svg" alt=""/>
                 </div>
