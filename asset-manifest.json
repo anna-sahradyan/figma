@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/anna-sahradyan.github.io/figma/static/css/main.c15e522e.css",
+    "main.js": "/anna-sahradyan.github.io/figma/static/js/main.6f346a88.js",
+    "index.html": "/anna-sahradyan.github.io/figma/index.html",
+    "main.c15e522e.css.map": "/anna-sahradyan.github.io/figma/static/css/main.c15e522e.css.map",
+    "main.6f346a88.js.map": "/anna-sahradyan.github.io/figma/static/js/main.6f346a88.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c15e522e.css",
+    "static/js/main.6f346a88.js"
+  ]
+}
